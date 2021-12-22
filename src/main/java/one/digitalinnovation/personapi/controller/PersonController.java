@@ -13,7 +13,7 @@ import one.digitalinnovation.personapi.entity.Person;
 import one.digitalinnovation.personapi.service.PersonService;
 
 @RestController
-@RequestMapping("/api/v1/people")
+@RequestMapping("api/v1/people")
 public class PersonController {
 	
 	private PersonService personService;
