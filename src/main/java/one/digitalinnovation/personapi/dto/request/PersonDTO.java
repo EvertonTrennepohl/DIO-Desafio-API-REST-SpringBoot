@@ -38,6 +38,6 @@ public class PersonDTO {
 	
 	@NotEmpty
 	@Valid
-	private List<Phone> phones;
+	private List<PhoneDTO> phones;
 	
 }
